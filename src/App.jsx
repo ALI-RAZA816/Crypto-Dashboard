@@ -5,11 +5,9 @@ import SideBar from './Component/Sidebar/SideBar'
 export default function App() {
     return (
         <div style={{display:'flex'}}>
-            <div className="left">
             <SideBar />
-            </div>
-            <div className="right">
-            <Header />
+            <div className="wrapper" style={{width:'100%'}}>
+                <Header />
             </div>
         </div>
     )

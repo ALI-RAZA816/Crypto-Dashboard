@@ -4,3 +4,10 @@
     background-color: #fff;
     box-shadow:  0 0 10px #efefef;
 }
+
+.mainContainer h1{
+    color: #5F00D9;
+    font-size: 20px;
+    font-weight: medium;
+    text-transform: uppercase;
+}
