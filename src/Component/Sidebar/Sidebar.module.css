@@ -1,8 +1,8 @@
-.mainContainer{
-    min-height:100vh;
-    width: 256px;
+.sidebar{
     background-color: #fff;
     box-shadow:  0 0 10px #efefef;
+    min-height:100vh;
+    width: 260px;
 }
 
 .mainContainer h1{
@@ -10,4 +10,17 @@
     font-size: 20px;
     font-weight: medium;
     text-transform: uppercase;
+}
+
+.mainContainer div{
+    margin: 3rem 0 .8rem 0;
+}
+
+.sideLinks li a{
+    color: #171717;
+    font-weight: medium;
+}
+
+.sideLinks li{
+    font-size: 14px;
 }

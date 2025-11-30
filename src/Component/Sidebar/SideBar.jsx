@@ -8,10 +8,12 @@ import { FaAt } from "react-icons/fa";
 
 export default function SideBar() {
   return (
-    <div>
+    <div className={style.sidebar}>
       <div className={style.mainContainer}>
+        <div>
         <h1><FaAt /> Dosomecoding</h1>
-        <ul>
+        </div>
+        <ul className={style.sideLinks}>
             <li><a href="/"><RiDashboardFill /> Dashboard</a></li>
             <li><a href="/"><LuArrowLeftRight /> Transactions</a></li>
         </ul>
