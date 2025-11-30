@@ -14,8 +14,8 @@ export default function SideBar() {
         <h1><FaAt /> Dosomecoding</h1>
         </div>
         <ul className={style.sideLinks}>
-            <li><a href="/"><RiDashboardFill /> Dashboard</a></li>
-            <li><a href="/"><LuArrowLeftRight /> Transactions</a></li>
+            <li><a href="/"><RiDashboardFill style={{fontSize:'1rem',marginRight:'.4rem'}} /> Dashboard</a></li>
+            <li><a href="/"><LuArrowLeftRight style={{fontSize:'1rem',marginRight:'.4rem'}} /> Transactions</a></li>
         </ul>
       </div>
     </div>

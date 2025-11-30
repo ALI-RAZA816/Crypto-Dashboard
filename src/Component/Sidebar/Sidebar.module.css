@@ -2,7 +2,9 @@
     background-color: #fff;
     box-shadow:  0 0 10px #efefef;
     min-height:100vh;
-    width: 260px;
+    width: 300px;
+    display: flex;
+    justify-content: center;
 }
 
 .mainContainer h1{
@@ -16,11 +18,29 @@
     margin: 3rem 0 .8rem 0;
 }
 
-.sideLinks li a{
-    color: #171717;
-    font-weight: medium;
+.sideLinks li{
+    list-style-type: none;
+    height: 42px;
+    width: 100%;
+    text-align: left;
+    line-height: 42px;
+    border-radius: 5px;
+    padding: 0 .5rem;
+    margin-bottom: .8rem;
+    font-size: 14px;
+    cursor: pointer;
+    transition:background .30s ease;
 }
 
-.sideLinks li{
-    font-size: 14px;
+.sideLinks li:hover a,
+.sideLinks li:hover{
+    background-color: #F3F3F7;
+}
+
+.sideLinks li a{
+    display: flex;
+    align-items: center;
+    color: #797E82;
+    text-decoration: none;
+    font-weight: medium;
 }
