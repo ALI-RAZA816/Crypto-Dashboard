@@ -1,12 +1,3 @@
-.container{
-    height: 64px;
-    width: 100%;
-    display: flex;
-    background-color: #fff;
-    align-items: center;
-    justify-content: space-between;
-    box-shadow: 0 0 10px #efefef;
-}
 
 .container h1{
     color: #171717;
