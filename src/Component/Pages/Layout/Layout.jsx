@@ -53,11 +53,11 @@ export default function Layout() {
                                 <span>1M</span>
                             </div>
                         </div>
-                        <div>
-                            <img src="" alt="" />
+                        <div className={style.graphImg}>
+                            <img src="/images/Vector 27.png" alt="" />
                         </div>
                     </div>
-                    <div className="time">
+                    <div className={style.time}>
                         <span>7:15 PM</span>
                         <span>7:15 PM</span>
                         <span>7:15 PM</span>
@@ -65,11 +65,11 @@ export default function Layout() {
                         <span>7:15 PM</span>
                     </div>
                 </div>
-                <div className="rightBox">
+                <div className={style.rightBox}>
                     <span>Recent Transactions</span>
                     <div className="history">
-                        <div className='box box1'>
-                            <div className='text'>
+                        <div className={`${style.box} ${style.box1}`}>
+                            <div className={style.text}>
                                 <div>
                                     <HiCurrencyDollar />
                                 </div>
@@ -82,8 +82,8 @@ export default function Layout() {
                                 <span>+<MdCurrencyRupee />81,123.10</span>
                             </div>
                         </div>
-                        <div className='box box2'>
-                            <div className='text'>
+                        <div className={`${style.box} ${style.box2}`}>
+                            <div className={style.text}>
                                 <div>
                                     <HiCurrencyDollar />
                                 </div>
@@ -96,8 +96,8 @@ export default function Layout() {
                                 <span>+<MdCurrencyRupee />81,123.10</span>
                             </div>
                         </div>
-                        <div className='box box3'>
-                            <div className='text'>
+                        <div className={`${style.box} ${style.box3}`}>
+                            <div className={style.text}>
                                 <div>
                                     <HiCurrencyDollar />
                                 </div>
@@ -113,11 +113,11 @@ export default function Layout() {
                     </div>
                     <button>View All</button>
                 </div>
-                <div className="bottomleft">
+                <div className={style.bottomleft}>
                     <span>Loans</span>
                     <p>Learn more about Loans – Keep your Bitcoin, access it’s value without selling it</p>
                 </div>
-                <div className="bottomright">
+                <div className={style.bottomright}>
                     <span>Contact</span>
                     <p>Learn more about our real estate, mortgage, and  corporate account services</p>
                 </div>
