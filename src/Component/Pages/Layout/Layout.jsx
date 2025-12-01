@@ -14,18 +14,18 @@ export default function Layout() {
     return (
         <div className={style.layout}>
             <div className={style.layoutGrid}>
-                <div className="topBox">
-                    <div className="portfolioValues">
+                <div className={style.topBox}>
+                    <div className={style.portfolioValues}>
                         <span>Total Portfolio Values <FaInfoCircle /></span>
                         <span><MdCurrencyRupee /> 112,312.24</span>
                     </div>
-                    <div className="balance">
+                    <div className={style.balance}>
                         <div>
                             <span>Wallet Balance</span>
-                            <span>22.39401000 <p>BTC</p></span>
+                            <span>22.39401000 <span>BTC</span></span>
                         </div>
                         <div>
-                            <span><MdCurrencyRupee /> 1,300.00 <p>INR</p></span>
+                            <span><MdCurrencyRupee /> 1,300.00 <span>INR</span></span>
                         </div>
                     </div>
                     <div className="btns">

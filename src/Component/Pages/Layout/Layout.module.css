@@ -1,8 +1,32 @@
 .layout{
-    border: 1px solid red;
+    display: flex;
+    justify-content: center;
 }
 
 .layoutGrid{
     display: grid;
+    max-width: 1184px;
     grid-template-columns: 1fr 1fr 1fr;
+}
+
+.topBox{
+    grid-column-start: 1;
+    grid-column-end: 4;
+    box-shadow: 0 0 10px #efefef;
+    border-radius: 15px;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.balance > div,
+.portfolioValues{
+    display: flex;
+    flex-direction: column;
+}
+
+.balance{
+    display: flex;
+    align-items: flex-end;
 }
