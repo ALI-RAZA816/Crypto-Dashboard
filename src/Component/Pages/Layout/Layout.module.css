@@ -190,6 +190,7 @@
 
 .box{
     display: flex;
+    align-items: center;
     justify-content: space-between;
 }
 
@@ -200,8 +201,9 @@
 }
 
 .text div:first-child{
-    height: 30px;
-    width: 30px;
+    height: 40px;
+    width: 40px;
+    font-size:20px;
     margin-right: .9rem;
     border-radius: 50%;
     display: flex;
@@ -215,13 +217,13 @@
 }
 
 .text div:nth-child(2) span:first-child{
-    font-size: 14px;
+    font-size: 16px;
     color: #171717;
 }
 
 .text div:nth-child(2) span:last-child{
     color: #797E82;
-    font-size: 12px;
+    font-size: 14px;
 }
 
 .text div:last-child span{
@@ -242,4 +244,43 @@
     font-weight: 550;
     cursor: pointer;
     background-color: #EEEEF4;
+}
+
+.bottomleft{
+    border-radius: 16px;
+    background-color: #fff;
+    box-shadow: 0 0 10px #efefef;
+}
+
+.bottomleft span{
+    display: inline-block;
+    height: 22px;
+    text-align: center;
+    line-height: 22px;
+    border-radius: 100px;
+    width: 45px;
+    color: #fff;
+    font-size: 12px;
+    background-color: #5F00D9;
+}
+
+
+.bottomleft p{
+    font-size: 18px;
+    color: #171717;
+    line-height: 22px;
+    font-weight: medium;
+}
+
+
+.bottomright{
+    border-radius: 16px;
+    background-color: #5F00D9;
+    box-shadow: 0 0 10px #efefef;
+}
+
+.bottomright p{
+    color: #fff;
+    font-size: 18px;
+    line-height: 22px;
 }
