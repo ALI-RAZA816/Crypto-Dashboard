@@ -247,12 +247,26 @@
 }
 
 .bottomleft{
+    padding: 1rem 1.5rem;
     border-radius: 16px;
     background-color: #fff;
     box-shadow: 0 0 10px #efefef;
 }
 
+.bottomright span{
+    margin-bottom: 1rem;
+    color: #5F00D9;
+    border-radius: 100px;
+    height: 22px;
+    width: 60px;
+    display: inline-block;
+    font-size: 14px;
+    line-height: 22px;
+    text-align: center;
+    background-color: #fff;
+}
 .bottomleft span{
+    margin-bottom: 1rem;
     display: inline-block;
     height: 22px;
     text-align: center;
@@ -272,6 +286,17 @@
     font-weight: medium;
 }
 
+.bottomright{
+    padding: 1rem 1.5rem;
+    overflow: hidden;
+    position: relative;
+}
+
+.bottomright img {
+    position: absolute;
+    right: 0;
+    top: 0;
+}
 
 .bottomright{
     border-radius: 16px;
