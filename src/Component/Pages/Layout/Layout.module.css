@@ -21,12 +21,14 @@
     justify-content: space-between;
 }
 
+.price,
 .balance > div,
 .portfolioValues{
     display: flex;
     flex-direction: column;
 }
 
+.price span:first-child,
 .balance > div span:first-child,
 .portfolioValues span:first-child{
     color: #535D66;
@@ -35,6 +37,7 @@
     align-items: center;
 }
 
+.price span:last-child,
 .portfolioValues span:last-child{
     font-size: 24px;
     color: #171717;
@@ -96,5 +99,45 @@
 .leftBox{
     grid-column-start: 1;
     grid-column-end: 2;
-    border: 1px solid red;
+    background-color: #fff;
+    border-radius: 16px;
+    box-shadow: 0 0 10px #efefef;
+}
+
+.graphContainer{
+    display: flex;
+    justify-content: space-between;
+}
+
+.price span:last-child span{
+    color: #059669;
+    font-weight: medium;
+    display: flex;
+    align-items: center;
+    margin-left: .5rem;
+    font-size: 14px;
+}
+
+.leftBox .btns button{
+    height: 38px;
+    width: 81px;
+    color: #fff;
+    font-size: 14px;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    background-color: #5F00D9;
+}
+
+.graph div{
+    display: flex;
+    justify-content: end;
+}
+
+.tabs{
+    align-items: center;
+    text-align: right;
+    margin-left: auto;
+    border-radius: 5px;
+    background-color: #F3F3F7;
 }

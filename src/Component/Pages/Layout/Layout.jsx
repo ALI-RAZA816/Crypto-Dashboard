@@ -16,7 +16,7 @@ export default function Layout() {
             <div className={style.layoutGrid}>
                 <div className={style.topBox}>
                     <div className={style.portfolioValues}>
-                        <span>Total Portfolio Values <FaInfoCircle style={{marginLeft:'.3rem'}} /></span>
+                        <span>Total Portfolio Values <FaInfoCircle style={{ marginLeft: '.3rem' }} /></span>
                         <span><MdCurrencyRupee /> 112,312.24</span>
                     </div>
                     <div className={style.balance}>
@@ -24,7 +24,7 @@ export default function Layout() {
                             <span>Wallet Balance</span>
                             <span>22.39401000 <span>BTC</span></span>
                         </div>
-                        <div style={{marginLeft:'1rem'}}>
+                        <div style={{ marginLeft: '1rem' }}>
                             <span><MdCurrencyRupee /> 1,300.00 <span>INR</span></span>
                         </div>
                     </div>
@@ -34,22 +34,24 @@ export default function Layout() {
                     </div>
                 </div>
                 <div className={style.leftBox}>
-                    <div className="currentPrice">
-                        <div className="price">
+                    <div className={style.graphContainer}>
+                        <div className={style.price}>
                             <span>Current Price</span>
-                            <span><MdCurrencyRupee /> 26,670.25 <p><FiArrowUpRight /> 0.04%</p></span>
+                            <span><MdCurrencyRupee /> 26,670.25 <span><FiArrowUpRight /> 0.04%</span></span>
                         </div>
-                        <div className="btns">
-                            <button><TbCirclePlusFilled /> Buy</button>
-                            <button><FaCircleMinus /> Sell</button>
+                        <div className={style.btns}>
+                            <button style={{ marginRight: '1rem' }}><TbCirclePlusFilled style={{ fontSize: '15px', marginRight: '.2rem' }} /> Buy</button>
+                            <button><FaCircleMinus style={{ fontSize: '15px', marginRight: '.2rem' }} /> Sell</button>
                         </div>
                     </div>
-                    <div className="graph">
+                    <div className={style.graph}>
                         <div>
-                            <span>1H</span>
-                            <span>1D</span>
-                            <span>1W</span>
-                            <span>1M</span>
+                            <div className={style.tabs}>
+                                <span>1H</span>
+                                <span>1D</span>
+                                <span>1W</span>
+                                <span>1M</span>
+                            </div>
                         </div>
                         <div>
                             <img src="" alt="" />
