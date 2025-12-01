@@ -7,9 +7,6 @@ import { TbCirclePlusFilled } from "react-icons/tb";
 import { FaCircleMinus } from "react-icons/fa6";
 import { HiCurrencyDollar } from "react-icons/hi";
 
-
-
-
 export default function Layout() {
     return (
         <div className={style.layout}>
