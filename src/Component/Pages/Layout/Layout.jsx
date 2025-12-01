@@ -16,7 +16,7 @@ export default function Layout() {
             <div className={style.layoutGrid}>
                 <div className={style.topBox}>
                     <div className={style.portfolioValues}>
-                        <span>Total Portfolio Values <FaInfoCircle /></span>
+                        <span>Total Portfolio Values <FaInfoCircle style={{marginLeft:'.3rem'}} /></span>
                         <span><MdCurrencyRupee /> 112,312.24</span>
                     </div>
                     <div className={style.balance}>
@@ -24,11 +24,11 @@ export default function Layout() {
                             <span>Wallet Balance</span>
                             <span>22.39401000 <span>BTC</span></span>
                         </div>
-                        <div>
+                        <div style={{marginLeft:'1rem'}}>
                             <span><MdCurrencyRupee /> 1,300.00 <span>INR</span></span>
                         </div>
                     </div>
-                    <div className="btns">
+                    <div className={style.btns}>
                         <button><LuArrowDownToLine /> Deposit</button>
                         <button><LuArrowUpToLine /> Widthdraw</button>
                     </div>
