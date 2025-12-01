@@ -2,6 +2,10 @@ import style from '../Layout/Layout.module.css';
 import { FaInfoCircle } from "react-icons/fa";
 import { MdCurrencyRupee } from "react-icons/md";
 import { LuArrowDownToLine, LuArrowUpToLine } from "react-icons/lu";
+import { FiArrowUpRight } from "react-icons/fi";
+import { TbCirclePlusFilled } from "react-icons/tb";
+import { FaCircleMinus } from "react-icons/fa6";
+
 
 
 
@@ -28,7 +32,16 @@ export default function Layout() {
                         <button><LuArrowUpToLine /> Widthdraw</button>
                     </div>
                 </div>
-                <div className="leftBox"></div>
+                <div className="leftBox">
+                    <div className="price">
+                        <span>Current Price</span>
+                        <span><MdCurrencyRupee /> 26,670.25 <p><FiArrowUpRight /> 0.04%</p></span>
+                    </div>
+                    <div className="btns">
+                        <button><TbCirclePlusFilled /> Buy</button>
+                        <button><FaCircleMinus /> Sell</button>
+                    </div>
+                </div>
                 <div className="rightBox"></div>
                 <div className="bottomleft"></div>
                 <div className="bottomright"></div>
