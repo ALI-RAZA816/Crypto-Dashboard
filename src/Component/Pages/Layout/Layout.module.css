@@ -164,7 +164,6 @@
 .graphImg img{
     height: 150px;
     width: 100%;
-    background-color: #5F00D9;
     object-fit: contain;
 }
 
