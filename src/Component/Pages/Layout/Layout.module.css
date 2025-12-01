@@ -6,16 +6,17 @@
 .layoutGrid{
     display: grid;
     max-width: 1184px;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
 }
 
 .topBox{
     grid-column-start: 1;
-    grid-column-end: 4;
+    grid-column-end: 3;
     box-shadow: 0 0 10px #efefef;
     border-radius: 15px;
     background-color: #fff;
     display: flex;
+    padding: 1rem 1.5rem;
     align-items: center;
     justify-content: space-between;
 }
@@ -89,4 +90,11 @@
 .topBox .btns button:first-child{
     margin-right: .5rem;
     cursor: pointer;
+}
+
+
+.leftBox{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    border: 1px solid red;
 }

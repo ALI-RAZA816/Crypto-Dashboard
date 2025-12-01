@@ -33,7 +33,7 @@ export default function Layout() {
                         <button><LuArrowUpToLine /> Widthdraw</button>
                     </div>
                 </div>
-                <div className="leftBox">
+                <div className={style.leftBox}>
                     <div className="currentPrice">
                         <div className="price">
                             <span>Current Price</span>
