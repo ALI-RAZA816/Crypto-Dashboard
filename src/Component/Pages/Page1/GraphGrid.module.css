@@ -1,0 +1,151 @@
+.leftBox{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    background-color: #fff;
+    border-radius: 16px;
+    padding: 1rem 1.5rem;
+    box-shadow: 0 0 10px #efefef;
+}
+
+.graphContainer{
+    display: flex;
+    justify-content: space-between;
+}
+
+.price span:last-child span{
+    color: #059669;
+    font-weight: medium;
+    display: flex;
+    align-items: center;
+    margin-left: .5rem;
+    font-size: 14px;
+}
+
+.leftBox .btns button{
+    height: 38px;
+    width: 81px;
+    color: #fff;
+    font-size: 14px;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    background-color: #5F00D9;
+}
+
+.graph div{
+    display: flex;
+    justify-content: end;
+}
+
+.tabs{
+    margin: 1rem 0;
+    align-items: center;
+    text-align: right;
+    margin-left: auto;
+    padding: .1rem .2rem;
+    border-radius: 5px;
+    background-color: #F3F3F7;
+}
+
+.tabs span{
+    height: 20px;
+    line-height: 20px;
+    text-align: center;
+    width: 24px;
+    font-size: 12px ;
+    color: #171717;
+    border-radius: 2px;
+}
+
+.tabs span:nth-child(3){
+    background-color: #fff;
+}
+
+.graphImg img{
+    height: 150px;
+    width: 100%;
+    object-fit: contain;
+}
+
+.time{
+    display: flex;
+    margin-top: .5rem;
+    justify-content: space-between;
+}
+
+.time span{
+    color: #797E82;
+    font-size: 12px;
+}
+
+
+.rightBox{
+    padding: 1rem 1.5rem;
+    border-radius: 16px;
+    background-color: #fff;
+    box-shadow: 0 0 10px #efefef;
+}
+
+.rightBox > span{
+    font-size: 14px;
+    font-weight:350;
+    color: #535D66;
+}
+
+.box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.text {
+    margin: 1rem 0;
+    display: flex;
+    align-items: center;
+}
+
+.text div:first-child{
+    height: 40px;
+    width: 40px;
+    font-size:20px;
+    margin-right: .9rem;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #EEEEF4;
+}
+.text div:nth-child(2){
+    display: flex;
+    flex-direction: column;
+}
+
+.text div:nth-child(2) span:first-child{
+    font-size: 16px;
+    color: #171717;
+}
+
+.text div:nth-child(2) span:last-child{
+    color: #797E82;
+    font-size: 14px;
+}
+
+.text div:last-child span{
+    font-size: 14px ;
+    color: #171717;
+    display: flex;
+    align-items: center;
+}
+
+.rightBox button{
+    height:38px;
+    width: 100%;
+    border: none;
+    margin-top: 1rem;
+    border-radius: 5px;
+    outline: none;
+    color: #171717;
+    font-weight: 550;
+    cursor: pointer;
+    background-color: #EEEEF4;
+}

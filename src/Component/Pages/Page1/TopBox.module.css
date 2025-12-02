@@ -1,0 +1,82 @@
+.topBox{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    box-shadow: 0 0 10px #efefef;
+    border-radius: 15px;
+    background-color: #fff;
+    display: flex;
+    padding: 1rem 1.5rem;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.balance > div,
+.portfolioValues{
+    display: flex;
+    flex-direction: column;
+}
+
+.balance > div span:first-child,
+.portfolioValues span:first-child{
+    color: #535D66;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+}
+
+.portfolioValues span:last-child{
+    font-size: 24px;
+    color: #171717;
+    font-weight: 550;
+    display: flex;
+    align-items: center;
+    margin-top: .5rem;
+}
+
+.balance{
+    display: flex;
+    align-items: flex-end;
+}
+
+.balance > div:last-child span,
+.balance > div:first-child span:last-child{
+    display:flex;
+    font-size: 24px;
+    color: #171717;
+    font-weight: 550;
+    align-items: center;
+    margin-top: .5rem;
+}
+
+.balance > div:last-child span span,
+.balance > div:first-child span:last-child span{
+    display: block;
+    height: 15px;
+    width: 25px;
+    border-radius: 5px;
+    font-size: 10px;
+    text-align: center;
+    line-height: 15px;
+    text-transform: uppercase;
+    color: #797E82;
+    margin-left: .5rem;
+    margin-bottom: .5rem;
+    background-color: #EEEEF4;
+}
+
+.topBox .btns button{
+    height: 32px;
+    font-size: 14px;
+    font-weight: medium;
+    width: 107px;
+    color: #fff;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    background-color: #5F00D9;
+}
+
+.topBox .btns button:first-child{
+    margin-right: .5rem;
+    cursor: pointer;
+}
