@@ -1,9 +1,11 @@
 import style from '../Pages2/Page2Container.module.css';
-import { IoSearch } from "react-icons/io5";
+// import { IoSearch } from "react-icons/io5";
 import { FiDownload } from "react-icons/fi";
-import { FaCaretDown } from "react-icons/fa";
-import { MdCurrencyRupee } from "react-icons/md";
-
+// import { FaCaretDown } from "react-icons/fa";
+// import { MdCurrencyRupee } from "react-icons/md";
+import TopHeader from '../Pages2/TopHeader';
+import SecondHeader from '../Pages2/SecondHeader';
+import Transactions from '../Pages2/Transactions';
 
 
 export default function Page2Container() {
@@ -12,7 +14,7 @@ export default function Page2Container() {
             <div className={style.box}>
                 <button><FiDownload /> Export CSV</button>
                 <div className={style.transactionBox} style={{padding:'1rem 0'}}>
-                    <div className={style.topHeader}>
+                    {/* <div className={style.topHeader}>
                         <div className={style.links}>
                             <ul>
                                 <li>All <span>349</span></li>
@@ -140,7 +142,10 @@ export default function Page2Container() {
                                 <button style={{backgroundColor:'#059669'}}>Completed</button>
                             </div>
                         </div>
-                    </div>
+                    </div> */}
+                    <TopHeader/>
+                    <SecondHeader/>
+                    <Transactions/>
                 </div>
             </div>
         </div>

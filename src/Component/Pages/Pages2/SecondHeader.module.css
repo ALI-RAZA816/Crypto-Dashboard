@@ -1,0 +1,23 @@
+.tabs,
+.tabs ul {
+    display: flex;
+    width: 100%;
+    padding: 0 1.5rem;
+    text-align: center;
+    align-items: center;
+    list-style-type: none;
+    justify-content: space-between;
+}
+
+.tabs{
+    height: 45px;
+    border-bottom: 1px solid #F3F3F7;
+}
+
+.tabs ul li {
+    display: flex;
+    align-items: center;
+    color: #797E82;
+    font-size: 12px;
+    text-align: left;
+}
