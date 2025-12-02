@@ -1,0 +1,127 @@
+.contactText h2{
+    font-size: 32px;
+    color: #171717;
+    line-height: 50px;
+    font-weight: medium;
+}
+
+.contactText p{
+    font-size: 14px;
+    color: #535D66;
+    line-height: 14px;
+}
+
+.form{
+    padding: 1rem 1.5rem;
+    border-radius: 16px;
+    background-color: #fff;
+    box-shadow: 0 0 10px #efefef;
+}
+
+.form > p{
+    margin-bottom: 1rem;
+    font-size: 14px;
+    font-weight: 550;
+    color: #171717;
+}
+
+.firstField,
+.secondField,
+.thirdField{
+    margin-bottom: 1.2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.name,
+.surname,
+.message,
+.email{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content:start;
+    align-items:start;
+}
+
+.name label,
+.surname label,
+.email label,
+.message label{
+    margin-bottom: .3rem;
+    font-weight: 450;
+    font-size: 12px;
+    color: #171717;
+}
+
+.name input,
+.surname input,
+.email input{
+    height: 38px;
+    width: 100%;
+    border-radius: 8px;
+    background: none;
+    font-size: 14px;
+    padding: 0 .8rem;
+    color: #797E82;
+    border: 1px solid #EEEEF4;
+}
+
+.email input{
+    max-width: 100% !important;
+}
+
+.name input::placeholder,
+.surname input::placeholder,
+.email input::placeholder,
+.message textarea::placeholder{
+    font-size: 14px;
+    color: #797E82;
+}
+
+.message textarea{
+    width: 100%;
+    font-size: 14px;
+    height:92px;
+    text-align: left;
+    padding: .8rem;
+    font-family: "Ubuntu", sans-serif;
+    border-radius: 8px;
+    border: 1px solid #EEEEF4;
+}
+
+.form p{
+    color: #171717;
+    margin:1.5rem 0;
+    font-size: 12px;
+}
+
+.form p a{
+    color:#5F00D9;
+    text-decoration: none;
+}
+
+.form button {
+    width: 100%;
+    border: none;
+    outline: none;
+    height: 38px;
+    width: 100%;
+    border-radius: 8px;
+}
+
+.form button:first-of-type{
+    font-size: 12px;
+    color: #797E82;
+    font-weight: 550;
+    cursor: pointer;
+    margin-bottom: .6rem;
+    background-color: #D8DDE2;
+}
+.form button:last-of-type{
+    color: #171717;
+    font-weight: 550;
+    font-size: 12px;
+    background-color: #EEEEF4;
+}

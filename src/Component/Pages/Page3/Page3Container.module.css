@@ -1,0 +1,13 @@
+.pageContainer{
+    display: flex;
+    justify-content: center;
+}
+
+.contentContainer{
+    width: 100%;
+    margin-top: 1.5rem;
+    max-width:1184px;
+    display: grid;
+    gap: 70px;
+    grid-template-columns: 1fr 1.2fr;
+}

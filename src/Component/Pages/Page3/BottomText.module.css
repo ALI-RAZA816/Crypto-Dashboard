@@ -1,0 +1,45 @@
+.leftBox h2{
+    font-size: 32px;
+    color: #171717;
+    line-height: 50px;
+    font-weight: medium;
+}
+
+.leftBox p{
+    font-size: 14px;
+    color: #535D66;
+    line-height: 14px;
+}
+
+.rightBox{
+    padding: 1rem 1.5rem;
+    overflow: hidden;
+    border-radius: 15px;
+    position: relative;
+    background-color:#5F00D9;
+}
+
+.rightBox img{
+    position: absolute;
+    right: 0;
+    top: 0;
+    object-fit:cover;
+}
+
+.rightBox span{
+    display: inline-block;
+    height: 18px;
+    width:50px;
+    color: #5F00D9;
+    font-size: 11px;
+    text-align: center;
+    background-color: #fff;
+    line-height: 18px;
+    border-radius: 100px;
+}
+
+.rightBox p{
+    color: #fff;
+    margin: .6rem 0;
+    font-size: 18px;
+}
