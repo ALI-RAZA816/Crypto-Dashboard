@@ -4,7 +4,24 @@
     min-height:100vh;
     width: 300px;
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 .5rem;
+    justify-content:space-between;
+}
+
+.sidebar p{
+    margin-bottom: .5rem;
+    display: flex;
+    align-items: center;
+    /* background-color: #F3F3F7; */
+    width: 100%;
+    text-align: left;
+    height: 42px;
+    border-radius: 10px;
+    line-height: 42px;
+    padding: 0 .8rem;
+    background-color: #EEEEF4;
 }
 
 .mainContainer h1{

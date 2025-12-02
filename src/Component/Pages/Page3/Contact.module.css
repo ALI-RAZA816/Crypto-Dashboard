@@ -30,6 +30,7 @@
 .thirdField{
     margin-bottom: 1.2rem;
     display: flex;
+    gap: 20px;
     align-items: center;
     justify-content: space-between;
 }
