@@ -9,7 +9,7 @@ import { MdCurrencyRupee } from "react-icons/md";
 export default function Page2Container() {
     return (
         <div className={style.container}>
-            <div className="box">
+            <div className={style.box}>
                 <button><FiDownload /> Export CSV</button>
                 <div className={style.transactionBox}>
                     <div className={style.topHeader}>
