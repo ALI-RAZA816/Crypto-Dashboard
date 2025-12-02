@@ -27,18 +27,18 @@ export default function Page2Container() {
                         </div>
                     </div>
                     <div className="secondHeader">
-                        <div className="tabs">
+                        <div className={style.tabs}>
                             <ul>
                                 <li>ID</li>
-                                <li>Date & Time <FaCaretDown /></li>
+                                <li>Date & Time <FaCaretDown style={{marginLeft:'.3rem'}} /></li>
                                 <li>Type</li>
-                                <li>Amount <FaCaretDown /></li>
+                                <li>Amount <FaCaretDown style={{marginLeft:'.3rem'}} /></li>
                                 <li>Status</li>
                             </ul>
                         </div>
                     </div>
-                    <div className="transactions">
-                        <div className="hostoryBox">
+                    <div className={style.transactions}>
+                        <div className={style.historyBox}>
                             <span>HD82NA2H</span>
                             <div>
                                 <span>2022-06-09</span>
@@ -55,7 +55,7 @@ export default function Page2Container() {
                                 <button>Pending</button>
                             </div>
                         </div>
-                        <div className="hostoryBox">
+                        <div className={style.historyBox}>
                             <span>HD82NA2H</span>
                             <div>
                                 <span>2022-06-09</span>
@@ -69,10 +69,10 @@ export default function Page2Container() {
                                 <span>+<MdCurrencyRupee /> 81,123.10</span>
                             </div>
                             <div>
-                                <button>Pending</button>
+                                <button style={{backgroundColor:'#F5A50B'}}>Processing</button>
                             </div>
                         </div>
-                        <div className="hostoryBox">
+                        <div className={style.historyBox}>
                             <span>HD82NA2H</span>
                             <div>
                                 <span>2022-06-09</span>
@@ -86,10 +86,10 @@ export default function Page2Container() {
                                 <span>+<MdCurrencyRupee /> 81,123.10</span>
                             </div>
                             <div>
-                                <button>Pending</button>
+                                <button style={{backgroundColor:'#DC2626'}}>Cancelled</button>
                             </div>
                         </div>
-                        <div className="hostoryBox">
+                        <div className={style.historyBox}>
                             <span>HD82NA2H</span>
                             <div>
                                 <span>2022-06-09</span>
@@ -103,10 +103,10 @@ export default function Page2Container() {
                                 <span>+<MdCurrencyRupee /> 81,123.10</span>
                             </div>
                             <div>
-                                <button>Pending</button>
+                                <button style={{backgroundColor:'#059669'}}>Completed</button>
                             </div>
                         </div>
-                        <div className="hostoryBox">
+                        <div className={style.historyBox}>
                             <span>HD82NA2H</span>
                             <div>
                                 <span>2022-06-09</span>
@@ -120,10 +120,10 @@ export default function Page2Container() {
                                 <span>+<MdCurrencyRupee /> 81,123.10</span>
                             </div>
                             <div>
-                                <button>Pending</button>
+                                <button style={{backgroundColor:'#059669'}}>Completed</button>
                             </div>
                         </div>
-                        <div className="hostoryBox">
+                        <div className={style.historyBox}>
                             <span>HD82NA2H</span>
                             <div>
                                 <span>2022-06-09</span>
@@ -137,7 +137,7 @@ export default function Page2Container() {
                                 <span>+<MdCurrencyRupee /> 81,123.10</span>
                             </div>
                             <div>
-                                <button>Pending</button>
+                                <button style={{backgroundColor:'#059669'}}>Completed</button>
                             </div>
                         </div>
                     </div>
