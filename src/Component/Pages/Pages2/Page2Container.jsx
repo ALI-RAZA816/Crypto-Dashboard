@@ -11,7 +11,7 @@ export default function Page2Container() {
         <div className={style.container}>
             <div className={style.box}>
                 <button><FiDownload /> Export CSV</button>
-                <div className={style.transactionBox}>
+                <div className={style.transactionBox} style={{padding:'1rem 0'}}>
                     <div className={style.topHeader}>
                         <div className={style.links}>
                             <ul>
@@ -37,7 +37,7 @@ export default function Page2Container() {
                             </ul>
                         </div>
                     </div>
-                    <div className={style.transactions}>
+                    <div className={style.transactions} style={{padding:'0 1.5rem'}}>
                         <div className={style.historyBox}>
                             <span>HD82NA2H</span>
                             <div>

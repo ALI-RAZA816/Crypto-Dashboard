@@ -1,15 +1,17 @@
 .container{
-    border: 1px solid red;
+    height: 100%;
+    display: flex;
+    justify-content: center;
 }
 
 .box,
 .transactionBox{
-    margin: 0 auto;
+    /* margin: 0 auto; */
     width: 100%;
     max-width:960px;
     border-radius: 16px;
-    box-shadow: 0 0 10px #efefef;
     background-color: #fff;
+    box-shadow: 0 0 10px #efefef;
 }
 
 .box{
@@ -19,9 +21,10 @@
 
 .box > button {
     display: block;
-    margin-left: auto;
     height: 38px;
     width: 130px;
+    margin: 1.5rem 0 .8rem 0;
+    margin-left: auto !important;
     color: #fff;
     border: none;
     outline: none;
@@ -34,6 +37,7 @@
 .topHeader{
     display: flex;
     height: 45px;
+    padding: 0 1.5rem;
     align-items: center;
     border-bottom: 1px solid #F3F3F7;
     justify-content: space-between;
@@ -61,6 +65,7 @@
 }
 
 .links ul li:first-child{
+    font-weight: 550;
     border-bottom-color: #5F00D9;
 }
 
@@ -97,6 +102,8 @@
 .tabs ul {
     display: flex;
     width: 100%;
+    padding: 0 1.5rem;
+    text-align: center;
     align-items: center;
     list-style-type: none;
     justify-content: space-between;
@@ -122,6 +129,10 @@
     text-align: left;
     align-items: center;
     justify-content: space-between;
+}
+
+.historyBox:last-child{
+    border-bottom: none;
 }
 
 .historyBox > span{
