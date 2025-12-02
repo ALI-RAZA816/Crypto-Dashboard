@@ -1,4 +1,4 @@
-import style from '../Pages2/SecondHeader.module.css';
+import style from '../Page2/SecondHeader.module.css';
 import { FaCaretDown } from "react-icons/fa";
 
 export default function SecondHeader() {

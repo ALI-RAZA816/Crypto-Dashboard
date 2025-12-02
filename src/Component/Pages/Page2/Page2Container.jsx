@@ -1,8 +1,8 @@
-import style from '../Pages2/Page2Container.module.css';
+import style from '../Page2/Page2Container.module.css';
 import { FiDownload } from "react-icons/fi";
-import TopHeader from '../Pages2/TopHeader';
-import SecondHeader from '../Pages2/SecondHeader';
-import Transactions from '../Pages2/Transactions';
+import TopHeader from './TopHeader';
+import SecondHeader from './SecondHeader';
+import Transactions from './Transactions';
 
 export default function Page2Container() {
     return (

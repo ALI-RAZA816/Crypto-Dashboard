@@ -1,4 +1,4 @@
-import style from '../Pages2/Transactions.module.css';
+import style from './Transactions.module.css';
 import { MdCurrencyRupee } from "react-icons/md";
 
 export default function Transactions() {

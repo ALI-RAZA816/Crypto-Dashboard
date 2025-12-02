@@ -1,4 +1,4 @@
-import style from '../Pages2/TopHeader.module.css';
+import style from '../Page2/TopHeader.module.css';
 import { IoSearch } from "react-icons/io5";
 
 export default function TopHeader() {
