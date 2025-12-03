@@ -1,7 +1,7 @@
-.header{
+.header {
     height: 64px;
     width: 100%;
-    max-width:1350px;
+    max-width: 1350px;
     display: flex;
     padding: 0 1rem;
     align-items: center;
@@ -10,7 +10,7 @@
     box-shadow: 5px 0 10px #efefef;
 }
 
-.container{
+.container {
     display: flex;
     width: 100%;
     max-width: 1184px;
@@ -18,13 +18,28 @@
     justify-content: space-between;
 }
 
-.container h1{
+.container h1 {
     color: #171717;
     font-size: 28px;
     font-weight: medium;
 }
 
-.userIcon{
-    font-size:30px;
+.userIcon {
+    font-size: 30px;
     color: #171717;
+}
+
+.bars {
+    font-size: 25px;
+    cursor: pointer;
+    margin-right: 1rem;
+    color: #171717;
+    display: none;
+}
+
+
+@media screen and (max-width:1150px) {
+    .bars {
+        display: block;
+    }
 }
