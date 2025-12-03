@@ -5,6 +5,9 @@ import { LuArrowLeftRight } from "react-icons/lu";
 import { FaAt } from "react-icons/fa";
 import { PiHeadphonesFill } from "react-icons/pi";
 import { RxCross2 } from "react-icons/rx";
+import {
+    Link
+} from "react-router-dom";
 
 export default function SideBar({showSidebar, hidesidebarHandler}) {
 
@@ -16,11 +19,11 @@ export default function SideBar({showSidebar, hidesidebarHandler}) {
           <h1><FaAt /> Dosomecoding</h1>
         </div>
         <ul className={style.sideLinks}>
-          <li><a href="/"><RiDashboardFill style={{ fontSize: '1rem', marginRight: '.4rem' }} /> Dashboard</a></li>
-          <li><a href="/"><LuArrowLeftRight style={{ fontSize: '1rem', marginRight: '.4rem' }} /> Transactions</a></li>
+          <li><Link to="/"><RiDashboardFill style={{ fontSize: '1rem', marginRight: '.4rem' }} /> Dashboard</Link></li>
+          <li><Link to="/transactions"><LuArrowLeftRight style={{ fontSize: '1rem', marginRight: '.4rem' }} /> Transactions</Link></li>
         </ul>
       </div>
-      <p><PiHeadphonesFill style={{ marginRight: '.5rem' }} />Support</p>
+      <p><PiHeadphonesFill style={{ marginRight: '.5rem' }} /><Link to="/support">Support</Link></p>
     </div>
   )
 }

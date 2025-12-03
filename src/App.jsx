@@ -6,27 +6,42 @@ import SideBar from './Component/Sidebar/SideBar'
 import Page1Container from './Component/Pages/Page1/Page1Container';
 import Page2Container from './Component/Pages/Page2/Page2Container';
 import Page3Container from './Component/Pages/Page3/Page3Container';
+import {
+    BrowserRouter as Router,
+    Switch,
+    Route,
+} from "react-router-dom";
 export default function App() {
 
     const [showSidebar, setSidebar] = useState(false);
-    const sidebarHandler = () =>{
+    const sidebarHandler = () => {
         setSidebar(true);
         // alert();
     }
 
-    const hidesidebarHandler = () =>{
+    const hidesidebarHandler = () => {
         setSidebar(false);
     }
 
     return (
-        <div style={{display:'flex'}}>
-            <SideBar showSidebar = {showSidebar} hidesidebarHandler = {hidesidebarHandler} />
-            <div className="wrapper" style={{width:'100%'}}>
-                <Header sidebarHandler = {sidebarHandler} />
-                <Page1Container/>
-                {/* <Page2Container/> */}
-                {/* <Page3Container/> */}
-            </div>
+        <div style={{ display: 'flex' }}>
+            <Router>
+                <SideBar showSidebar={showSidebar} hidesidebarHandler={hidesidebarHandler} />
+                <div className="wrapper" style={{ width: '100%' }}>
+                    <Header sidebarHandler={sidebarHandler} />
+                    <Switch>
+                        <Route exact path="/">
+                            <Page1Container />
+                        </Route>
+                        <Route exact path="/transactions">
+                            <Page2Container />
+                        </Route>
+                        <Route exact path="/support">
+                            <Page3Container />
+                        </Route>
+                    </Switch>
+                </div>
+            </Router>
         </div>
     )
 }

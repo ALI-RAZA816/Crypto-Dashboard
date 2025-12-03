@@ -25,6 +25,12 @@
     background-color: #EEEEF4;
 }
 
+.sidebar p a{
+    color: #171717;
+    font-weight: 450;
+    text-decoration: none;
+}
+
 .mainContainer h1{
     color: #5F00D9;
     font-size: 20px;
