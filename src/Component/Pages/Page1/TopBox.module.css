@@ -114,3 +114,10 @@
         margin: .8rem 0;
     }
 }
+
+@media screen and (max-width:867px){
+    .topBox{
+        grid-column-start: 1;
+        grid-column-end: 3;
+    }
+}
