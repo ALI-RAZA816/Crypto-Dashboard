@@ -1,17 +1,17 @@
-.sidebar{
+.sidebar {
     background-color: #fff;
-    box-shadow:  0 0 10px #efefef;
-    min-height:100vh;
+    box-shadow: 0 0 10px #efefef;
+    min-height: 100vh;
     width: 300px;
     display: flex;
     flex-direction: column;
     align-items: center;
     padding: 0 .5rem;
     transition: left .25s ease-in-out;
-    justify-content:space-between;
+    justify-content: space-between;
 }
 
-.sidebar p{
+.sidebar p {
     margin-bottom: .5rem;
     display: flex;
     align-items: center;
@@ -25,61 +25,78 @@
     background-color: #EEEEF4;
 }
 
-.sidebar p a{
+.sidebar p a {
     color: #171717;
     font-weight: 450;
     text-decoration: none;
 }
 
-.mainContainer h1{
+.mainContainer h1 {
     color: #5F00D9;
     font-size: 20px;
     font-weight: medium;
     text-transform: uppercase;
 }
 
-.mainContainer div{
+.mainContainer div {
     margin: 3rem 0 .8rem 0;
 }
 
-.sideLinks li{
+.sideLinks li {
     list-style-type: none;
-    height: 42px;
-    width: 100%;
     text-align: left;
     line-height: 42px;
-    border-radius: 5px;
-    padding: 0 .5rem;
     /* margin-bottom: .8rem; */
     font-size: 14px;
     cursor: pointer;
-    transition:background .30s ease;
+    transition: background .30s ease;
 }
 
-.sideLinks li:hover a,
-.sideLinks li:hover{
-    color: #171717;
-    font-weight:550;
-    background-color: #F3F3F7;
-}
-
-.sideLinks li a{
-    display: flex;
+.sideLinks li a {
+    width: 100%;
+    padding: 0 .5rem;
+    border-radius: 5px;
+    display: inline-flex;
     align-items: center;
     color: #797E82;
     text-decoration: none;
     font-weight: medium;
 }
 
-.showsidebar{
+.sideLinks a:hover {
+    color: #171717 !important;
+    font-weight: 550 !important;
+    background-color: #F3F3F7 !important;
+}
+
+.activeClass{
+    color: #171717 !important;
+    font-weight: 550 !important;
+    background-color: #F3F3F7 !important;
+}
+
+.showsidebar {
     left: 0 !important;
 }
 
-@media screen and (max-width:1150px){
-    .sidebar{
+.crossIcon{
+    position:absolute;
+    top:15px;
+    right:15px;
+    font-size:23px;
+    cursor:pointer;
+    display: none;
+}
+
+@media screen and (max-width:1150px) {
+    .sidebar {
         position: absolute;
         top: 0;
-        left:-100%;
+        left: -100%;
         z-index: 1;
+    }
+
+    .crossIcon{
+        display: block;
     }
 }

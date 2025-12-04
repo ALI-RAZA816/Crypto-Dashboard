@@ -21,6 +21,10 @@
     font-size: 14px;
 }
 
+.btns{
+    display: flex;
+}
+
 .leftBox .btns button{
     height: 38px;
     width: 81px;
