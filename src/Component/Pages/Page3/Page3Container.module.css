@@ -1,5 +1,6 @@
 .pageContainer{
     display: flex;
+    padding: 0 1rem;
     justify-content: center;
 }
 
@@ -10,4 +11,11 @@
     display: grid;
     gap: 70px;
     grid-template-columns: 1fr 1.2fr;
+}
+
+@media  screen and (max-width:764px) {
+    .contentContainer{
+        grid-template-columns: 1fr;
+    }
+    
 }

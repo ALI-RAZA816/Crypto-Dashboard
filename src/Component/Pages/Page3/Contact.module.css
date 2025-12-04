@@ -126,3 +126,8 @@
     font-size: 12px;
     background-color: #EEEEF4;
 }
+@media  screen and (max-width:420px) {
+    .firstField{
+        flex-direction: column;
+    }
+}
