@@ -1,5 +1,5 @@
 
-import style from '../Sidebar/SideBar.module.css';
+import style from '../Sidebar/Sidebar.module.css';
 import { RiDashboardFill } from "react-icons/ri";
 import { LuArrowLeftRight } from "react-icons/lu";
 import { FaAt } from "react-icons/fa";
