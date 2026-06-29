@@ -16,10 +16,14 @@ added them to the repo. See the "Adding Screenshots to This README" section
 at the bottom of this file for step-by-step instructions.
 -->
 
-| Dashboard | Transactions | Support |
-|:---:|:---:|:---:|
+| Dashboard |
+|:---:|
 |![Dashboard](https://github.com/ALI-RAZA816/Crypto-Dashboard/blob/34be0bac4b67899405cf5d82f48e345e5ed11e6d/crypto_dashboard_screenshot1.PNG) | 
+| Transactions |
+|:---:|
 ![Transactions](https://github.com/ALI-RAZA816/Crypto-Dashboard/blob/34be0bac4b67899405cf5d82f48e345e5ed11e6d/crypto_dashboard_screenshot2.PNG) | 
+|Support |
+|:---:|
 ![Support](https://github.com/ALI-RAZA816/Crypto-Dashboard/blob/34be0bac4b67899405cf5d82f48e345e5ed11e6d/crypto_dashboard_screenshot3.PNG) |
 
 ---
